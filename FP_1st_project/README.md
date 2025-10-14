@@ -89,13 +89,3 @@ c = (7, -8, 6)
 >>> resolve_sistema(A, c, 1e-5)
 (0.5385, -1.6923, 0.7692)
 ```
-
-## 🧪 Error Handling
-All modules include strict validation.
-
-## 🧱 Key Concepts
-String and tuple manipulation
-Dictionaries and sorting
-Numerical algorithms
-Input validation and error handling
-Modular design and clean documentation
