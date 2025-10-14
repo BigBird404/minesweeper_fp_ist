@@ -1,30 +1,42 @@
-## Fundamentos da programaçao
+# 🎓 IST - Fundamentals of Programming Projects
 
-This repository contains proj1_FP.py — a collection of small utilities and exercises from the "Fundamentos da Programação" (Programming Fundamentals) course.
+This repository contains two academic projects developed for the **Fundamentals of Programming** course at the **Instituto Superior Técnico** (LEIC - 1st year).
 
-## Overview
-
-proj1_FP.py implements the following groups of utilities:
-
-1. Text formatting and justification
-   - limpa_texto: cleans whitespace
-   - corta_texto: splits text into a line respecting a maximum width without breaking words
-   - insere_espacos: inserts spaces to expand a line to an exact width (distributes spaces left-to-right)
-   - justifica_texto: fully justify a text into multiple lines of a given width (last line left-aligned)
-
-2. Linear algebra / Jacobi method
-   - produto_interno: computes the inner product of two vectors
-   - verifica_convergencia: checks convergence of a candidate solution for Ax = c within a tolerance
-   - retira_zeros_diagonal: attempts to remove zeros from the diagonal by swapping rows
-   - eh_diagonal_dominante: tests whether a matrix is diagonally dominant
-   - resolve_sistema: solves a linear system using the Jacobi iterative method with validation
-
-3. Electoral system (D'Hondt method)
-   - calcula_quocientes: computes vote quotients for each party up to number of seats
-   - atribui_mandatos: assigns seats using the D'Hondt method
-   - obtem_partidos: collects and sorts participating party names from election data
-   - obtem_resultado_eleicoes: returns final election results aggregated across districts
-
-The code and docstrings are mostly written in Portuguese.
+Each folder contains an individual project, fully self-contained with its own implementation and documentation.
 
 ---
+
+## 📁 Repository Structure
+
+| Folder | Project | Description |
+|---------|----------|-------------|
+| `project1/` | **Text Formatting, Election Simulation, and Linear Systems** | Implements text justification algorithms, an electoral seat allocation system (D’Hondt method), and a Jacobi iterative solver for linear systems. |
+| `project2/` | **Minesweeper Game (Functional Programming)** | A functional-style implementation of the Minesweeper game, including random generation (xorshift), coordinate systems, and user interaction logic. |
+
+Each project folder includes:
+- `main.py` — the project implementation
+- `test.py` — a set of tests for the project functions  
+- `README.md` — detailed documentation (in English) explaining the code structure, logic, and usage examples.
+
+---
+
+## 👨‍💻 Author
+
+**Filippo da Costa Bortoli**  
+📧 filippo.bortoli@tecnico.ulisboa.pt  
+🎓 Student ID: ist1106103  
+🗓️ Academic Year: 2022/2023
+
+---
+
+## ⚙️ Requirements
+
+- Python 3.8 or higher  
+- No external libraries required (only Python standard library)
+
+---
+
+## 🧾 License
+
+These projects were developed as part of coursework at the **Instituto Superior Técnico**.  
+Reproduction or distribution without the author's explicit permission is **not allowed**.
