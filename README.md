@@ -22,10 +22,7 @@ Each project folder includes:
 
 ## 👨‍💻 Author
 
-**Filippo da Costa Bortoli**  
-📧 filippo.bortoli@tecnico.ulisboa.pt  
-🎓 Student ID: ist1106103  
-🗓️ Academic Year: 2022/2023
+Developed by Filippo Bortoli
 
 ---
 
